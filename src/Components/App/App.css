@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.interface {
+  position: relative;
+  width: 80%;
+  left: 7vh;
+}
+
+.input-div {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.input {
+  padding: 0 0.5rem;
+  width: 19rem;
+  height: 2rem;
+  border: none;
+  outline: none;
+}
+
+.input-btn {
+  background-color: rgb(44, 190, 44);
+  height: 2rem;
+  width: 6rem;
+  border: none;
+  cursor: pointer;
+}
+
+.tasks {
+  margin-top: 2rem;
+}
+
+.task-div {
+  margin-top: 1rem;
+  background-color: rgb(255, 233, 204);
+  display: flex;
+  justify-content: space-between;
+}
+
+.task {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 0.5rem 2rem;
+}
+
+.del-btn {
+  border: none;
+  padding: 0.9rem 1rem;
+  color: white;
+  background-color: orange;
+  cursor: pointer;
+}
